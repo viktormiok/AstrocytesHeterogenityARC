@@ -13,17 +13,17 @@ def plot_violin_marker(adata, markers, save=None, use_raw=True):
         if save is not None:
             sc.pl.violin(
                 adata, 
-                groupby='louvain', 
+                groupby='leiden', 
                 keys=markers[(2*i):np.min([2*(i+1), len(markers)])], 
                 use_raw=use_raw, 
                 rotation=90,
                 size=3,
-                save=save+"_"+str(i)+".svg"
+                save=save+"_"+str(i)+".png"
             )
         else:
             sc.pl.violin(
                 adata, 
-                groupby='louvain', 
+                groupby='leiden', 
                 keys=markers[(2*i):np.min([2*(i+1), len(markers)])], 
                 use_raw=use_raw, 
                 rotation=90, size=5,
@@ -43,7 +43,7 @@ def plot_umap_marker(adata, markers, color_map='RdGy_r', size=3, save=None, use_
                 legend_loc=legend_loc,
                 show=None,
                 ax=None,
-                save=save+"_"+str(i)+".svg"
+                save=save+"_"+str(i)+".png"
             )
         else:
             sc.pl.umap(
@@ -58,6 +58,31 @@ def plot_umap_marker(adata, markers, color_map='RdGy_r', size=3, save=None, use_
                 ax=None
             )
 
+def plot_diffmap_marker(adata, markers, components='1,2', color_map='RdGy_r', palette=None, size=10, save=None, use_raw=True):
+    for i in range(len(markers) // 2 + len(markers) % 2):
+        print(markers[(2*i):np.min([2*(i+1), len(markers)])])
+        if save is not None:
+            sc.pl.diffmap(
+                adata, 
+                components=components,
+                color=markers[(2*i):np.min([2*(i+1), len(markers)])], 
+                use_raw=use_raw,
+                color_map=color_map,
+                palette=palette,
+                size=size,
+                save=save+"_"+str(i)+".png"
+            )
+        else:
+            sc.pl.diffmap(
+                adata, 
+                components=components,
+                color=markers[(2*i):np.min([2*(i+1), len(markers)])], 
+                use_raw=use_raw,
+                color_map=color_map,
+                palette=palette,
+                size=size
+            )
+
 def cell_percent(adata, cluster, condition, norm='index', xlabel='cell cluster', ylabel='cell count',
                  leg_loc='upper left', title=None, save=False, table=False):
     tmp = pd.crosstab(adata.obs[cluster],
@@ -70,7 +95,7 @@ def cell_percent(adata, cluster, condition, norm='index', xlabel='cell cluster',
     plt.xlabel(xlabel)
     plt.ylabel(ylabel)
     if save is not None:
-        plt.savefig(save+title+'.svg')
+        plt.savefig(save+title+'.png')
     if table is True:
         if save is not None:
             tmp.to_csv(save+title+'.csv')
