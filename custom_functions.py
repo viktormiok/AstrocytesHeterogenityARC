@@ -7,6 +7,11 @@ import matplotlib.pyplot as plt
 from matplotlib import colors
 from matplotlib import rcParams
 
+# Function for plotting pie charts
+def func(pct, allvals):
+        absolute=int(pct/100.*np.sum(allvals))
+        return "{:.1f}%\n({:d})".format(pct, absolute)
+    
 # Plotting Routines for Markers Gene Sets:
 def plot_violin_marker(adata, markers, save=None, use_raw=True):
     for i in range(len(markers) // 2 + len(markers) % 2):
@@ -153,18 +158,28 @@ def plot_enrich(data, n_terms=20, save=False):
     #Note: this is done as calibration was done for values between 5 and 75
     data_to_plot['scaled.overlap'] = scale_data_5_75(data_to_plot['intersection_size'])
     
-    norm = colors.LogNorm(min_pval, max_pval)
-    sm = plt.cm.ScalarMappable(cmap="cool", norm=norm)
+    norm = colors.LogNorm(min_pval,
+                          max_pval
+    )
+    sm = plt.cm.ScalarMappable(cmap="cool",
+                               norm=norm
+    )
     sm.set_array([])
 
     rcParams.update({'font.size': 14, 'font.weight': 'bold'})
 
     sns.set(style="whitegrid")
 
-    path = plt.scatter(x='recall', y="name", c='p_value', cmap='cool', 
+    path = plt.scatter(x='recall',
+                       y="name",
+                       c='p_value',
+                       cmap='cool', 
                        norm=colors.LogNorm(min_pval, max_pval), 
-                       data=data_to_plot, linewidth=1, edgecolor="grey", 
-                       s=[(i+10)**1.5 for i in data_to_plot['scaled.overlap']])
+                       data=data_to_plot,
+                       linewidth=1,
+                       edgecolor="grey", 
+                       s=[(i+10)**1.5 for i in data_to_plot['scaled.overlap']]
+    )
     ax = plt.gca()
     ax.invert_yaxis()
 
@@ -194,9 +209,17 @@ def plot_enrich(data, n_terms=20, save=False):
     #Colorbar
     fig = plt.gcf()
     cbaxes = fig.add_axes([0.8, 0.15, 0.03, 0.4])
-    cbar = ax.figure.colorbar(sm, ticks=ticks_vals, shrink=0.5, anchor=(0,0.1), cax=cbaxes)
+    cbar = ax.figure.colorbar(sm,
+                              ticks=ticks_vals,
+                              shrink=0.5,
+                              anchor=(0,0.1),
+                              cax=cbaxes
+    )
     cbar.ax.set_yticklabels(ticks_labs)
-    cbar.set_label("Adjusted p-value", fontsize=14, fontweight='bold')
+    cbar.set_label("Adjusted p-value",
+                   fontsize=14,
+                   fontweight='bold'
+    )
 
     #Size legend
     min_olap = data_to_plot['intersection_size'].min()
@@ -210,20 +233,53 @@ def plot_enrich(data, n_terms=20, save=False):
     size_leg_scaled_vals = scale_data_5_75(size_leg_vals)
 
     
-    l1 = plt.scatter([],[], s=(size_leg_scaled_vals[0]+10)**1.5, edgecolors='none', color='black')
-    l2 = plt.scatter([],[], s=(size_leg_scaled_vals[1]+10)**1.5, edgecolors='none', color='black')
-    l3 = plt.scatter([],[], s=(size_leg_scaled_vals[2]+10)**1.5, edgecolors='none', color='black')
-    l4 = plt.scatter([],[], s=(size_leg_scaled_vals[3]+10)**1.5, edgecolors='none', color='black')
-
+    l1 = plt.scatter([],
+                     [],
+                     s=(size_leg_scaled_vals[0]+10)**1.5,
+                     edgecolors='none',
+                     color='black'
+    )
+    l2 = plt.scatter([],
+                     [],
+                     s=(size_leg_scaled_vals[1]+10)**1.5,
+                     edgecolors='none',
+                     color='black'
+    )
+    l3 = plt.scatter([],
+                     [],
+                     s=(size_leg_scaled_vals[2]+10)**1.5,
+                     edgecolors='none',
+                     color='black'
+    )
+    l4 = plt.scatter([],
+                     [],
+                     s=(size_leg_scaled_vals[3]+10)**1.5,
+                     edgecolors='none',
+                     color='black'
+    )
     labels = [str(int(i)) for i in size_leg_vals]
 
-    leg = plt.legend([l1, l2, l3, l4], labels, ncol=1, frameon=False, fontsize=12,
-                     handlelength=1, loc = 'center left', borderpad = 1, labelspacing = 1.4,
-                     handletextpad=2, title='Gene overlap', scatterpoints = 1,  bbox_to_anchor=(0.1, 1.5), 
+    leg = plt.legend([l1, l2, l3, l4],
+                     labels,
+                     ncol=1,
+                     frameon=False,
+                     fontsize=12,
+                     handlelength=1,
+                     loc='center left',
+                     borderpad=1,
+                     labelspacing=1.4,
+                     handletextpad=2,
+                     title='Gene overlap',
+                     scatterpoints=1,
+                     bbox_to_anchor=(0.1, 1.5), 
                      facecolor='black')
 
     if save:
-        plt.savefig(save, dpi=300, format='pdf', bbox_inches="tight")
+        plt.savefig(save,
+                    dpi=300,
+                    format='pdf',
+                    bbox_inches="tight"
+        )
 
     plt.show()
     
