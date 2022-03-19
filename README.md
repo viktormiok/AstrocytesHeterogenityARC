@@ -6,8 +6,9 @@
 
 
 
-- [Overview](#overview)
-- [Summary of main findings](#summary-of-main-findings)
+- [Introduction](#introduction)
+  * [Summary of main findings](#summary-of-main-findings)
+  * [Overview](#overview)
 - [Data and analysis](#data-and-analysis)
 - [License](#license)
 - [References](#references)
@@ -50,6 +51,7 @@ All the data required for performing the analysis and publisch in the reference 
 | Transcriptomics  | __`GSE...`__  | [transcriptomics_analysis_v1.ipynb](https://github.com/viktormiok/AstrocytesHeterogenityARC/blob/main/transcriptomics_analysis_v1.ipynb) |
 | Proteomics  | __`GSE...`__  | [proteomics_analysis_v1.ipynb](https://github.com/viktormiok/AstrocytesHeterogenityARC/blob/main/proteomics_analysis_v1.ipynb) |
 | Singel-Cell RNA-Seq  | __`GSE...`__| [astrocyte_scRNAseq_cluster_approach.ipynb](https://github.com/viktormiok/AstrocytesHeterogenityARC/blob/main/astrocyte_scRNAseq_cluster_approach.ipynb)  |
+| Astrocyte spatial point patterns  | __`GSE...`__| [Csppa_analysis.ipynb](https://github.com/viktormiok/AstrocytesHeterogenityARC/blob/main/Csppa_analysis.ipynb)  |
 
 In order to access one of the data set for instance GSE78279 you need to run the code bellow. Unpacking the data requires tar and gunzip, which should already be available on most systems.
 
