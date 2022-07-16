@@ -6,8 +6,9 @@
 
 
 
-- [Overview](#overview)
-- [Summary of main findings](#summary-of-main-findings)
+- [Introduction](#introduction)
+  * [Summary of main findings](#summary-of-main-findings)
+  * [Overview](#overview)
 - [Data and analysis](#data-and-analysis)
 - [License](#license)
 - [References](#references)
@@ -50,6 +51,7 @@ All the data required for performing the analysis and publisch in the reference 
 | Transcriptomics  | __`GSE...`__  | [transcriptomics_analysis_v1.ipynb](https://github.com/viktormiok/AstrocytesHeterogenityARC/blob/main/transcriptomics_analysis_v1.ipynb) |
 | Proteomics  | __`GSE...`__  | [proteomics_analysis_v1.ipynb](https://github.com/viktormiok/AstrocytesHeterogenityARC/blob/main/proteomics_analysis_v1.ipynb) |
 | Singel-Cell RNA-Seq  | __`GSE...`__| [astrocyte_scRNAseq_cluster_approach.ipynb](https://github.com/viktormiok/AstrocytesHeterogenityARC/blob/main/astrocyte_scRNAseq_cluster_approach.ipynb)  |
+| Astrocyte spatial point patterns  | __`GSE...`__| [Csppa_analysis.ipynb](https://github.com/viktormiok/AstrocytesHeterogenityARC/blob/main/Csppa_analysis.ipynb)  |
 
 In order to access one of the data set for instance GSE78279 you need to run the code bellow. Unpacking the data requires tar and gunzip, which should already be available on most systems.
 
@@ -70,7 +72,9 @@ __`AstrocytesHeterogenityARC`__ is distributed under the MIT license. Please rea
 
 Publications related to __`AstrocytesHeterogenityARC`__ include:
 
-- Lutomska, L.M., Miok, V., Krahmer, N., González García, I., Gruber, T., Le Thuc, O., De Bernardis Murat, C., Legutko, B., Sterr, M., Saher, G., Lickert, H., Ussar, S., Tschöp, M., Lutter, D., García-Cáceres, C.(2021), "Hypercaloric diet selectively triggers a transient molecular rearrangement of astrocytes in the arcuate nucleus", *Submmited.
+- Lutomska, L.M., Miok, V., Krahmer, N., González García, I., Gruber, T., Le Thuc, O., De Bernardis Murat, C., Legutko, B., Sterr, M., Saher, G., Lickert, H., Ussar, S., Tschöp, M., Lutter, D., García-Cáceres, C.(2022), "Diet triggers specific responses of hypothalamic astrocytes in time and region dependent manner", Glia.
+
+- Lutomska, L.M., Miok, V., Krahmer, N., González García, I., Gruber, T., Le Thuc, O., De Bernardis Murat, C., Legutko, B., Sterr, M., Saher, G., Lickert, H., Ussar, S., Tschöp, M., Lutter, D., García-Cáceres, C.(2021), "Hypercaloric diet selectively triggers a transient molecular rearrangement of astrocytes in the arcuate nucleus", bioRxiv, 4(1).
 
 
 Please cite the publication if you use __`AstrocytesHeterogenityARC`__.
