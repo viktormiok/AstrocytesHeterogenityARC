@@ -24,7 +24,7 @@ our results identify a high sensitivity and strong molecular response of astrocy
 located in the arcuate nucleus of the hypothalamus upon exposure to a
 hypercaloric diet.
 
-<img src="https://user-images.githubusercontent.com/22052679/148747517-60266170-396b-43e2-82cd-a226077820dc.png" align="top" height="700" width="600">
+<img src="https://github.com/viktormiok/AstrocytesHeterogenityARC/blob/main/GLIA_Graphical%20abstract_IGG.jpeg" align="center" height="540" width="730">
 
 ### Summary of main findings
 - Long-term exposure to hypercaloric diet differently affects the
