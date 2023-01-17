@@ -47,11 +47,11 @@ caloric diet to better understand the cellular circuitries acting in the ARC and
 
 ## Data and analysis
 All the data required for performing the analysis and publisch in the reference articles will be soon deposited in the National Center for Biotechnology Information Gene Expression Omnibus (GEO) and are accessible through the GEO Series accession numbers:
-| Data type     | GEO number | Notebook |
+| Data type     | Link to the data | Notebook |
 | ------------- | ------------- | ------------- |
-| Transcriptomics  | __`GSE205313`__  | [transcriptomics_analysis_v1.ipynb](https://github.com/viktormiok/AstrocytesHeterogenityARC/blob/main/transcriptomics_analysis_v1.ipynb) |
+| Transcriptomics  | [__`GSE205313`__](https://0-www-ncbi-nlm-nih-gov.brum.beds.ac.uk/geo/query/acc.cgi?acc=GSE205313)  | [transcriptomics_analysis_v1.ipynb](https://github.com/viktormiok/AstrocytesHeterogenityARC/blob/main/transcriptomics_analysis_v1.ipynb) |
 | Proteomics  | __`GSE...`__  | [proteomics_analysis_v1.ipynb](https://github.com/viktormiok/AstrocytesHeterogenityARC/blob/main/proteomics_analysis_v1.ipynb) |
-| Singel-Cell RNA-Seq  | __`GSE205667`__| [astrocyte_scRNAseq_cluster_approach.ipynb](https://github.com/viktormiok/AstrocytesHeterogenityARC/blob/main/astrocyte_scRNAseq_cluster_approach.ipynb)  |
+| Singel-Cell RNA-Seq  | [__`GSE205667`__](https://0-www-ncbi-nlm-nih-gov.brum.beds.ac.uk/geo/query/acc.cgi?acc=GSE205667)| [astrocyte_scRNAseq_cluster_approach.ipynb](https://github.com/viktormiok/AstrocytesHeterogenityARC/blob/main/astrocyte_scRNAseq_cluster_approach.ipynb)  |
 | Astrocyte spatial point patterns  | __`GSE...`__| [Csppa_analysis.ipynb](https://github.com/viktormiok/AstrocytesHeterogenityARC/blob/main/Csppa_analysis.ipynb)  |
 
 In order to access one of the data set for instance GSE78279 you need to run the code bellow. Unpacking the data requires tar and gunzip, which should already be available on most systems.
