@@ -50,9 +50,9 @@ All the data required for performing the analysis and publisch in the reference 
 | Data type     | Link to the data | Notebook |
 | ------------- | ------------- | ------------- |
 | Transcriptomics  | [__`GSE205313`__](https://0-www-ncbi-nlm-nih-gov.brum.beds.ac.uk/geo/query/acc.cgi?acc=GSE205313)  | [transcriptomics_analysis_v1.ipynb](https://github.com/viktormiok/AstrocytesHeterogenityARC/blob/main/transcriptomics_analysis_v1.ipynb) |
-| Proteomics  | __`GSE...`__  | [proteomics_analysis_v1.ipynb](https://github.com/viktormiok/AstrocytesHeterogenityARC/blob/main/proteomics_analysis_v1.ipynb) |
+| Proteomics  | [__`ProtData`__](https://www.biorxiv.org/content/10.1101/2022.03.30.486358v1.abstract) | [proteomics_analysis_v1.ipynb](https://github.com/viktormiok/AstrocytesHeterogenityARC/blob/main/proteomics_analysis_v1.ipynb) |
 | Singel-Cell RNA-Seq  | [__`GSE205667`__](https://0-www-ncbi-nlm-nih-gov.brum.beds.ac.uk/geo/query/acc.cgi?acc=GSE205667)| [astrocyte_scRNAseq_cluster_approach.ipynb](https://github.com/viktormiok/AstrocytesHeterogenityARC/blob/main/astrocyte_scRNAseq_cluster_approach.ipynb)  |
-| Astrocyte spatial point patterns  | __`GSE...`__| [Csppa_analysis.ipynb](https://github.com/viktormiok/AstrocytesHeterogenityARC/blob/main/Csppa_analysis.ipynb)  |
+| Astrocyte spatial point patterns  | [__`ASPP_data`__](https://github.com/viktormiok/AstrocytesHeterogenityARC/blob/main/SPP_data_all.csv)| [Csppa_analysis.ipynb](https://github.com/viktormiok/AstrocytesHeterogenityARC/blob/main/Csppa_analysis.ipynb)  |
 
 In order to access one of the data set for instance GSE78279 you need to run the code bellow. Unpacking the data requires tar and gunzip, which should already be available on most systems.
 
