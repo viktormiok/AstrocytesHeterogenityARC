@@ -14,12 +14,12 @@
 - [References](#references)
 
 ## Introduction
-We provide a detailed multi-omics view on the spatial and
+We provide a detailed multi-omics view of the spatial and
 temporal changes of different astrocyte populations in response to a high-fat
-high-sugar diet. Using a combination of proteomics, RNAseq and scRNAseq data
-and their integrated analysis, together with in vivo labeling of astrocyte specific
+high-sugar diet. Using a combination of proteomics, RNAseq, and scRNAseq data
+and their integrated analysis, together with in vivo labeling of astrocyte-specific
 molecular markers, we show that the anatomical location of astrocytes
-determines the cellular response to exposure to a high caloric diet. Specifically,
+determines the cellular response to exposure to a high-caloric diet. Specifically,
 our results identify a high sensitivity and strong molecular response of astrocytes
 located in the arcuate nucleus of the hypothalamus upon exposure to a
 hypercaloric diet.
@@ -27,8 +27,8 @@ hypercaloric diet.
 <img src="https://github.com/viktormiok/AstrocytesHeterogenityARC/blob/main/GLIA_Graphical%20abstract_IGG.jpeg" align="center" height="540" width="730">
 
 ### Summary of main findings
-- Long-term exposure to hypercaloric diet differently affects the
-transcriptional pattern of astrocytes located in cortex, hippocampus, and
+- Long-term exposure to a hypercaloric diet differently affects the
+the transcriptional pattern of astrocytes located in the cortex, hippocampus, and
 hypothalamus, with the most prominent changes in the proteomic profile
 of hypothalamic astrocytes.
 - Unlike other cell types in the ARC, astrocytes rapidly respond to
