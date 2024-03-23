@@ -32,18 +32,18 @@ the transcriptional pattern of astrocytes located in the cortex, hippocampus, an
 hypothalamus, with the most prominent changes in the proteomic profile
 of hypothalamic astrocytes.
 - Unlike other cell types in the ARC, astrocytes rapidly respond to
-hypercaloric diet with a remarkable, yet transient, transcriptional
+a hypercaloric diet with a remarkable, yet transient, transcriptional
 activation.
 - The number of astrocytes expressing the astrocytic markers Aldh1L1 and
 GFAP increases upon a high-fat high-sugar (HFHS) diet feeding in a
-intraregional- and time- dependent manner.
+intraregional- and time-dependent manner.
 - The spatial location of Aldh1L1- and GFAP- expressing astrocytes in the
 ARC undergoes a dynamic reorganization in response to hypercaloric
 diet. 
 
 ### Overview
-Given that the CNS control of metabolism highly depends on functional hypothalamic astrocyteneuron interactions we find our insights into the rapid and selective changes in astrocytes in response to a hypercaloric diet, prior to significant changes in body weight, inflammation, and insulin sensitivity, of particular interest. We provide a comprehensive multi-omics data collection on astrocytes and other cell types during different time points of the initial adaptation to a high
-caloric diet to better understand the cellular circuitries acting in the ARC and their rearrangements in response to HFHS diet. Of note, our spatial point pattern analysis method in itself provides an advancement to cell analysis in various disciplines and experimental setups, helping to describe the anatomy at a cellular level. 
+Given that the CNS control of metabolism highly depends on functional hypothalamic astrocyte-neuron interactions we find our insights into the rapid and selective changes in astrocytes in response to a hypercaloric diet, before significant changes in body weight, inflammation, and insulin sensitivity, of particular interest. We provide a comprehensive multi-omics data collection on astrocytes and other cell types during different time points of the initial adaptation to a high
+caloric diet to better understand the cellular circuitries acting in the ARC and their rearrangements in response to the HFHS diet. Of note, our spatial point pattern analysis method in itself provides an advancement to cell analysis in various disciplines and experimental setups, helping to describe the anatomy at a cellular level. 
 
 ## Data and analysis
 All the data required for performing the analysis and publisch in the reference articles will be soon deposited in the National Center for Biotechnology Information Gene Expression Omnibus (GEO) and are accessible through the GEO Series accession numbers:
@@ -57,7 +57,7 @@ All the data required for performing the analysis and publisch in the reference 
 In order to access one of the data set for instance GSE78279 you need to run the code bellow. Unpacking the data requires tar and gunzip, which should already be available on most systems.
 
 ```
-cd ../  #To get to the main github repo folder
+cd ../  #To get to the main GitHub repo folder
 mkdir -p data/AstrocytesHeterogenityARC/
 cd data/AstrocytesHeterogenityARC/
 wget ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE78nnn/GSE78279/suppl/GSE78279_RAW.tar
