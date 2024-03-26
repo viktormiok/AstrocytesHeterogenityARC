@@ -43,10 +43,10 @@ diet.
 
 ### Overview
 Given that the CNS control of metabolism highly depends on functional hypothalamic astrocyte-neuron interactions we find our insights into the rapid and selective changes in astrocytes in response to a hypercaloric diet, before significant changes in body weight, inflammation, and insulin sensitivity, of particular interest. We provide a comprehensive multi-omics data collection on astrocytes and other cell types during different time points of the initial adaptation to a high
-caloric diet to better understand the cellular circuitries acting in the ARC and their rearrangements in response to the HFHS diet. Of note, our spatial point pattern analysis method in itself provides an advancement to cell analysis in various disciplines and experimental setups, helping to describe the anatomy at a cellular level. 
+caloric diet to better understand the cellular circuitries acting in the ARC and their rearrangements in response to the HFHS diet. Of note, our spatial point pattern analysis method advances cell analysis in various disciplines and experimental setups, helping to describe the anatomy at a cellular level. 
 
 ## Data and analysis
-All the data required for performing the analysis and publisch in the reference articles will be soon deposited in the National Center for Biotechnology Information Gene Expression Omnibus (GEO) and are accessible through the GEO Series accession numbers:
+All the data required for performing the analysis and publishing in the reference articles will be soon deposited in the National Center for Biotechnology Information Gene Expression Omnibus (GEO) and are accessible through the GEO Series accession numbers:
 | Data type     | Link to the data | Notebook |
 | ------------- | ------------- | ------------- |
 | Transcriptomics  | [__`GSE205313`__](https://0-www-ncbi-nlm-nih-gov.brum.beds.ac.uk/geo/query/acc.cgi?acc=GSE205313)  | [transcriptomics_analysis_v1.ipynb](https://github.com/viktormiok/AstrocytesHeterogenityARC/blob/main/transcriptomics_analysis_v1.ipynb) |
@@ -54,7 +54,7 @@ All the data required for performing the analysis and publisch in the reference 
 | Singel-Cell RNA-Seq  | [__`GSE205667`__](https://0-www-ncbi-nlm-nih-gov.brum.beds.ac.uk/geo/query/acc.cgi?acc=GSE205667)| [astrocyte_scRNAseq_cluster_approach.ipynb](https://github.com/viktormiok/AstrocytesHeterogenityARC/blob/main/astrocyte_scRNAseq_cluster_approach.ipynb)  |
 | Astrocyte spatial point patterns  | [__`ASPP_data`__](https://github.com/viktormiok/AstrocytesHeterogenityARC/blob/main/SPP_data_all.csv)| [Csppa_analysis.ipynb](https://github.com/viktormiok/AstrocytesHeterogenityARC/blob/main/Csppa_analysis.ipynb)  |
 
-In order to access one of the data set for instance GSE78279 you need to run the code bellow. Unpacking the data requires tar and gunzip, which should already be available on most systems.
+To access one of the data sets for instance GSE78279 you need to run the code below. Unpacking the data requires tar and gunzip, which should already be available on most systems.
 
 ```
 cd ../  #To get to the main GitHub repo folder
