@@ -67,7 +67,7 @@ gunzip GSE78279_RAW/*_Regional_*
 ```
 ## License
 
-__`AstrocytesHeterogenityARC`__ is distributed under the MIT license. Please read the license before using __`AstrocytesHeterogenityARC`__, which it is distributed in the `LICENSE` file.
+__`AstrocytesHeterogenityARC`__ is distributed under the MIT license. Please read the license before using __`AstrocytesHeterogenityARC`__, distributed in the `LICENSE` file.
 
 ## References
 
