@@ -27,7 +27,7 @@ hypercaloric diet.
 <img src="https://github.com/viktormiok/AstrocytesHeterogenityARC/blob/main/GLIA_Graphical%20abstract_IGG.jpeg" align="center" height="540" width="730">
 
 ### Summary of main findings
-- Long-term exposure to a hypercaloric diet differently affects the
+- Long-term exposure to a hypercaloric diet differently affects
 the transcriptional pattern of astrocytes located in the cortex, hippocampus, and
 hypothalamus, with the most prominent changes in the proteomic profile
 of hypothalamic astrocytes.
@@ -35,14 +35,14 @@ of hypothalamic astrocytes.
 a hypercaloric diet with a remarkable, yet transient, transcriptional
 activation.
 - The number of astrocytes expressing the astrocytic markers Aldh1L1 and
-GFAP increases upon a high-fat high-sugar (HFHS) diet feeding in a
+GFAP increases upon a high-fat, high-sugar (HFHS) diet feeding in a
 intraregional- and time-dependent manner.
-- The spatial location of Aldh1L1- and GFAP- expressing astrocytes in the
+- The spatial location of Aldh1L1- and GFAP-expressing astrocytes in the
 ARC undergoes a dynamic reorganization in response to hypercaloric
 diet. 
 
 ### Overview
-Given that the CNS control of metabolism highly depends on functional hypothalamic astrocyte-neuron interactions we find our insights into the rapid and selective changes in astrocytes in response to a hypercaloric diet, before significant changes in body weight, inflammation, and insulin sensitivity, of particular interest. We provide a comprehensive multi-omics data collection on astrocytes and other cell types during different time points of the initial adaptation to a high
+Given that the CNS control of metabolism highly depends on functional hypothalamic astrocyte-neuron interactions, we find our insights into the rapid and selective changes in astrocytes in response to a hypercaloric diet, before significant changes in body weight, inflammation, and insulin sensitivity, of particular interest. We provide a comprehensive multi-omics data collection on astrocytes and other cell types during different time points of the initial adaptation to a high
 caloric diet to better understand the cellular circuitries acting in the ARC and their rearrangements in response to the HFHS diet. Of note, our spatial point pattern analysis method advances cell analysis in various disciplines and experimental setups, helping to describe the anatomy at a cellular level. 
 
 ## Data and analysis
