@@ -42,11 +42,11 @@ ARC undergoes a dynamic reorganization in response to hypercaloric
 diet. 
 
 ### Overview
-Given that the CNS control of metabolism highly depends on functional hypothalamic astrocyte-neuron interactions, we find our insights into the rapid and selective changes in astrocytes in response to a hypercaloric diet, before significant changes in body weight, inflammation, and insulin sensitivity, of particular interest. We provide a comprehensive multi-omics data collection on astrocytes and other cell types during different time points of the initial adaptation to a high
+Given that the CNS control of metabolism highly depends on functional hypothalamic astrocyte-neuron interactions, our insights into the rapid and selective changes in astrocytes in response to a hypercaloric diet, before significant changes in body weight, inflammation, and insulin sensitivity, are of particular interest. We provide a comprehensive multi-omics data collection on astrocytes and other cell types during different time points of the initial adaptation to a high
 caloric diet to better understand the cellular circuitries acting in the ARC and their rearrangements in response to the HFHS diet. Our spatial point pattern analysis method advances cell analysis in various disciplines and experimental setups, helping to describe anatomy at a cellular level. 
 
 ## Data and analysis
-All the data required for performing the analysis and publishing in the reference articles will be soon deposited in the National Center for Biotechnology Information Gene Expression Omnibus (GEO) and are accessible through the GEO Series accession numbers:
+All the data required for performing the analysis and publishing in the reference articles will soon be deposited in the National Center for Biotechnology Information Gene Expression Omnibus (GEO) and are accessible through the GEO Series accession numbers:
 | Data type     | Link to the data | Notebook |
 | ------------- | ------------- | ------------- |
 | Transcriptomics  | [__`GSE205313`__](https://0-www-ncbi-nlm-nih-gov.brum.beds.ac.uk/geo/query/acc.cgi?acc=GSE205313)  | [transcriptomics_analysis_v1.ipynb](https://github.com/viktormiok/AstrocytesHeterogenityARC/blob/main/transcriptomics_analysis_v1.ipynb) |
