@@ -54,7 +54,7 @@ All the data required for performing the analysis and publishing in the referenc
 | Singel-Cell RNA-Seq  | [__`GSE205667`__](https://0-www-ncbi-nlm-nih-gov.brum.beds.ac.uk/geo/query/acc.cgi?acc=GSE205667)| [astrocyte_scRNAseq_cluster_approach.ipynb](https://github.com/viktormiok/AstrocytesHeterogenityARC/blob/main/astrocyte_scRNAseq_cluster_approach.ipynb)  |
 | Astrocyte spatial point patterns  | [__`ASPP_data`__](https://github.com/viktormiok/AstrocytesHeterogenityARC/blob/main/SPP_data_all.csv)| [Csppa_analysis.ipynb](https://github.com/viktormiok/AstrocytesHeterogenityARC/blob/main/Csppa_analysis.ipynb)  |
 
-To access one of the data sets, for instance, GSE78279, you need to run the code below. Unpacking the data requires tar and gunzip, which should already be available on most systems.
+To access one of the data sets, for instance, GSE78279, run the code below. Unpacking the data requires tar and gunzip, which should already be available on most systems.
 
 ```
 cd ../  #To get to the main GitHub repo folder
@@ -67,7 +67,7 @@ gunzip GSE78279_RAW/*_Regional_*
 ```
 ## License
 
-__`AstrocytesHeterogenityARC`__ is distributed under the MIT license. Please read the license before using __`AstrocytesHeterogenityARC`__, distributed in the `LICENSE` file.
+__`AstrocytesHeterogenityARC`__ is distributed under the MIT license. Please read the license for __`AstrocytesHeterogenityARC`__distributed in the `LICENSE` file.
 
 ## References
 
