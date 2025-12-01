@@ -42,7 +42,7 @@ ARC undergoes a dynamic reorganization in response to hypercaloric
 diet. 
 
 ### Overview
-Given that the CNS control of metabolism highly depends on functional hypothalamic astrocyte-neuron interactions, our insights into the rapid and selective changes in astrocytes in response to a hypercaloric diet, before significant changes in body weight, inflammation, and insulin sensitivity, are of particular interest. We provide a comprehensive multi-omics data collection on astrocytes and other cell types during different time points of the initial adaptation to a high
+Since the central nervous system’s regulation of metabolism relies heavily on functional interactions between hypothalamic astrocytes and neurons, our findings on the rapid and selective astrocytic changes induced by a hypercaloric diet—occurring before significant alterations in body weight, inflammation, or insulin sensitivity—are particularly noteworthy. We provide a comprehensive multi-omics data collection on astrocytes and other cell types during different time points of the initial adaptation to a high
 caloric diet to better understand the cellular circuitries acting in the ARC and their rearrangements in response to the HFHS diet. Our spatial point pattern analysis method advances cell analysis in various disciplines and experimental setups, helping to describe anatomy at a cellular level. 
 
 ## Data and analysis
