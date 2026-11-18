@@ -16,7 +16,7 @@
 ## Introduction
 We provide a detailed multi-omics view of the spatial and
 temporal changes of different astrocyte populations in response to a high-fat
-high-sugar diet. Using a combination of proteomics, RNAseq, and scRNAseq data
+high-sugar diet. Using a combination of proteomics, RNA-seq, and scRNAseq data
 and their integrated analysis, together with in vivo labeling of astrocyte-specific
 molecular markers, we show that the anatomical location of astrocytes
 determines the cellular response to exposure to a high-caloric diet. Specifically,
@@ -38,7 +38,7 @@ activation.
 GFAP increases upon a high-fat, high-sugar (HFHS) diet feeding in a
 intraregional and time-dependent manner.
 - The spatial location of Aldh1L1- and GFAP-expressing astrocytes in the
-ARC undergoes a dynamic reorganization in response to hypercaloric
+ARC undergoes a dynamic reorganization in response to a hypercaloric
 diet. 
 
 ### Overview
